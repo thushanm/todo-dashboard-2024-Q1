@@ -9,10 +9,11 @@ export function LeftSideDashBord() {
     const LeftMainSection = styled.section`
         width: 200px; /* Adjust width as needed */
         background-color: #2b2b5e; /* Blue color */
-        height: 100vh; /* Set full height */
+        height: 100%; /* Set full height */
         position: absolute; /* Fix sidebar to the left */
         top: 0; /* Position sidebar at the top */
         left: 0; /* Position sidebar on the left */
+        overflow: hidden;
 
     `
     const LeftSubDiv = styled.div`

@@ -10,7 +10,7 @@ export default function Pagenation() {
     };
 
     return (
-        <Stack spacing={2} sx={{marginLeft:'25%',marginTop:'8%'}}>
+        <Stack spacing={2} sx={{marginLeft:'25%',marginBottom:'10%'}}>
             <Typography>Page: {page}</Typography>
             <Pagination count={10} page={page} onChange={handleChange} />
         </Stack>

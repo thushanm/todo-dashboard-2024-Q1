@@ -9,6 +9,7 @@ const Div = styled.div`
     border: #afacac 1px solid;
    margin-left: 70%;
    margin-top: 0.2%;
+    overflow: hidden;
 `
     const WelcomText = styled.h1`
         color: black;

@@ -14,7 +14,7 @@ export function AppLayOut() {
 const Div = styled.div`
 height: 100vh;
     width: 100vw;
-    overflow-y: hidden;
+    overflow: hidden;
     justify-content: center; /* Center elements horizontally */
     align-items: center;
     
@@ -30,11 +30,21 @@ height: 100vh;
 
 
     `
+    const H2 = styled.h2`
+        color: #110f10;
+        position: absolute;
+        left: 20%;
+        font-weight: bold;
+        margin: auto;
+
+
+    `
 
     return (
         <Div>
 <H1>Dashboard</H1>
 <Welcome></Welcome>
+            <H2  >TASKS</H2>
             <LeftSideDashBord/>
             <ActivityFeed/>
 
