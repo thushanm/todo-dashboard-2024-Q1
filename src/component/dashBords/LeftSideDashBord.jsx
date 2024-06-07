@@ -1,19 +1,19 @@
 
 import styled from "styled-components";
 
-export function DashBord() {
+export function LeftSideDashBord() {
 
-    const LeftMain = styled.main`
-    height: 100vh;
-        width: 40vw;
-    `
+
 
 
     const LeftMainSection = styled.section`
-        height: 100%;
-        width: 60%;
-        background-color: #222262;
- 
+        width: 200px; /* Adjust width as needed */
+        background-color: #2b2b5e; /* Blue color */
+        height: 100vh; /* Set full height */
+        position: absolute; /* Fix sidebar to the left */
+        top: 0; /* Position sidebar at the top */
+        left: 0; /* Position sidebar on the left */
+
     `
     const LeftSubDiv = styled.div`
         height: 15%;
@@ -76,7 +76,7 @@ export function DashBord() {
 
 
     return (
-        <LeftMain>
+
           <LeftMainSection>
 
 <LeftSubDiv><LeftH1>Acmy Solution</LeftH1></LeftSubDiv>
@@ -84,7 +84,7 @@ export function DashBord() {
               <LeftSecondH1><LeftImage src='src/assets/icons/img.png'></LeftImage> Dashboard</LeftSecondH1>
               </LeftSubDiv2>
           </LeftMainSection>
-        </LeftMain>
+
 
 
     );

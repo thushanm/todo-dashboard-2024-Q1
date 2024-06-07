@@ -1,12 +1,15 @@
-import {DashBord} from "./component/DashBord.jsx";
+import {AppLayOut} from "./component/appLayOut/AppLayOut.jsx";
+
 
 function App() {
 
 
   return (
-    <>
-<DashBord/>
-    </>
+
+    <div>
+   <AppLayOut/>
+    </div>
+
   )
 }
 
