@@ -2,8 +2,11 @@ import {Welcome} from "../../component/dashBords/Welcome.jsx";
 import {LeftSideDashBord} from "../../component/dashBords/LeftSideDashBord.jsx";
 import styled from "styled-components";
 import {ActivityFeed} from "../../component/dashBords/ActivityFeed.jsx";
-import Pagination from "@mui/material/Pagination";
+
 import Pagenation from "../../component/Pagenation.jsx";
+import ColumnGroupingTable from "../../component/TaskList.jsx";
+import {Container} from "@mui/material";
+import CustomPaginationActionsTable from "../../component/TaskList.jsx";
 
 
 export function AppLayOut() {
@@ -34,7 +37,11 @@ height: 100vh;
 <Welcome></Welcome>
             <LeftSideDashBord/>
             <ActivityFeed/>
-            <Pagenation/>
+
+            <Container>
+            <CustomPaginationActionsTable/>
+
+            </Container>
         </Div>
     );
 }
