@@ -6,7 +6,7 @@ const Div = styled.div`
     border-radius: 10px;
     border: #afacac 1px solid;
     margin-left: 15%;
-    margin-top: 2%;
+    margin-top: 1%;
     @media (max-width: 768px) {
         padding: 10px; /* Reduce padding for better fit on smaller screens */
         font-size: 0.8rem;

@@ -8,7 +8,7 @@ const Div = styled.div`
     border-radius: 10px;
     border: #afacac 1px solid;
    margin-left: 70%;
-   margin-top: 0.4%;
+   margin-top: 0.2%;
 `
     const WelcomText = styled.h1`
         color: black;

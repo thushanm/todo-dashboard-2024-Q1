@@ -1,4 +1,4 @@
-import {AppLayOut} from "./component/appLayOut/AppLayOut.jsx";
+import {AppLayOut} from "./ui/appLayOut/AppLayOut.jsx";
 
 
 function App() {
